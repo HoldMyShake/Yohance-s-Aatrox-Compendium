@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#icon li {
+  float: left;
+  
+}
+
+#icon li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li {
+  float: left;
+  
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #b1363c;
+}
+table, th, td {
+  border: 0px;
+}
+@font-face {
+    font-family: 'algerianregular';
+    src: url('algerian_regular-webfont.woff2') format('woff2'),
+         url('algerian_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'algerianregular';
+}
+p, td {
+    font-family: 'Merriweather', serif;
+}
+
+
+#youtube {
+	background: url('../share-icons-sprite.png') no-repeat -614px -115px;
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	left: 1100px;
+	top: 10px;
+}
+
+#youtube a:hover {
+	background: url('../share-icons-sprite.png') no-repeat -614px -81px ;
+
+}
+#facebook {
+	background: url('../share-icons-sprite.png') no-repeat -166px -116px;
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	left: 1175px;
+	top: 10px;
+}
+#facebook a:hover {
+	background: url('../share-icons-sprite.png') no-repeat -166px -82px;
+	}
+#twitter {
+	background: url('../share-icons-sprite.png') no-repeat -127px -116px;
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	left: 1250px;
+	top: 10px;
+}
+#twitter a:hover {
+	background: url('../share-icons-sprite.png') no-repeat -127px -82px;
+}
+	
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
