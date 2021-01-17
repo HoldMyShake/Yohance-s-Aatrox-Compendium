@@ -63,7 +63,7 @@ p, td {
 
 
 #youtube {
-	background: url('../share-icons-sprite.png') no-repeat -614px -115px;
+	background: url('embed/share-icons-sprite.png') no-repeat -614px -115px;
 	width: 30px;
 	height: 31px;
 	position: absolute;
@@ -72,11 +72,11 @@ p, td {
 }
 
 #youtube a:hover {
-	background: url('../share-icons-sprite.png') no-repeat -614px -81px ;
+	background: url('embed/share-icons-sprite.png') no-repeat -614px -81px ;
 
 }
 #facebook {
-	background: url('../share-icons-sprite.png') no-repeat -166px -116px;
+	background: url('embed/share-icons-sprite.png') no-repeat -166px -116px;
 	width: 30px;
 	height: 31px;
 	position: absolute;
@@ -84,10 +84,10 @@ p, td {
 	top: 10px;
 }
 #facebook a:hover {
-	background: url('../share-icons-sprite.png') no-repeat -166px -82px;
+	background: url('embed/share-icons-sprite.png') no-repeat -166px -82px;
 	}
 #twitter {
-	background: url('../share-icons-sprite.png') no-repeat -127px -116px;
+	background: url('embed/share-icons-sprite.png') no-repeat -127px -116px;
 	width: 30px;
 	height: 31px;
 	position: absolute;
@@ -95,7 +95,7 @@ p, td {
 	top: 10px;
 }
 #twitter a:hover {
-	background: url('../share-icons-sprite.png') no-repeat -127px -82px;
+	background: url('embed/share-icons-sprite.png') no-repeat -127px -82px;
 }
 	
 }
